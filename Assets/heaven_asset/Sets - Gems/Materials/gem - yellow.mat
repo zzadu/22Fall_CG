@@ -42,7 +42,7 @@ Material:
     - _Emissive: 0
     - _EnvironmentLight: 0.439
     - _IndexOfRefraction: 2.14
-    - _ReflectionStrength: 0.802
+    - _ReflectionStrength: 0.798
     m_Colors:
     - _Color: {r: 1, g: 0.8784314, b: 0, a: 1}
   m_BuildTextureStacks: []

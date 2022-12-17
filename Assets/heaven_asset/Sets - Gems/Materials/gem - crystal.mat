@@ -38,11 +38,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Emission: 0
+    - _Emission: 0.868
     - _Emissive: 0
-    - _EnvironmentLight: 0.702
+    - _EnvironmentLight: 0.808
     - _IndexOfRefraction: 2.14
-    - _ReflectionStrength: 0.908
+    - _ReflectionStrength: 0.74
     m_Colors:
     - _Color: {r: 1, g: 0.786469, b: 0.36477983, a: 1}
   m_BuildTextureStacks: []
