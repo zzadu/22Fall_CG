@@ -6,13 +6,24 @@ using Object = UnityEngine.Object;
 public class SceneChange : MonoBehaviour
 {
     public Object loadingScene;
-
+    public Object upScene;
+    public Object downScene;
+    
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if (loadingScene.name == "Heaven")
-                SceneManager.LoadScene(loadingScene.name); // 점프해서 하늘로 올라가는 설정
+            if (upScene != null)
+            {
+                SceneManager.LoadScene(upScene.name);
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            if (upScene != null)
+            {
+                SceneManager.LoadScene(downScene.name);
+            }
         }
     }
 

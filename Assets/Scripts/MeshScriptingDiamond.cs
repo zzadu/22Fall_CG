@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeshScripting_Diamond : MonoBehaviour
+public class MeshScriptingDiamond : MonoBehaviour
 {
 	Vector3 V0, V1, V2, V3, V4, V5;
 	Vector3[] newVertices;
