@@ -24,14 +24,14 @@ public class AnimationMultiplierController : MonoBehaviour
         {
             print("play");
 
-            Anim.SetFloat("Dir", 1f);
+            Anim.SetFloat("Dir", 0.2f);
         }
 
         if (Input.GetKeyDown(KeyCode.B))
         {
             print("play backwards");
 
-            Anim.SetFloat("Dir", -1f);
+            Anim.SetFloat("Dir", -0.2f);
         }
 
         if (Input.GetKeyDown(KeyCode.S))
