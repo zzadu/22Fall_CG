@@ -40,9 +40,9 @@ Material:
     m_Floats:
     - _Emission: 0
     - _Emissive: 0
-    - _EnvironmentLight: 1.724
+    - _EnvironmentLight: 0.702
     - _IndexOfRefraction: 2.14
-    - _ReflectionStrength: 1.554
+    - _ReflectionStrength: 0.908
     m_Colors:
     - _Color: {r: 1, g: 0.786469, b: 0.36477983, a: 1}
   m_BuildTextureStacks: []
