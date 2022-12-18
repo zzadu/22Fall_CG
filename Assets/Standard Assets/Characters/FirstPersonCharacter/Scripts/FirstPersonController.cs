@@ -106,8 +106,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
                                m_CharacterController.height/2f, Physics.AllLayers, QueryTriggerInteraction.Ignore);
             desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
 
-            m_MoveDir.x = desiredMove.x*speed;
-            m_MoveDir.z = desiredMove.z*speed;
+            m_MoveDir.x = desiredMove.x*speed * 100;
+            m_MoveDir.z = desiredMove.z*speed * 100;
 
 
             if (m_CharacterController.isGrounded)
@@ -116,7 +116,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
                 if (m_Jump)
                 {
-                    m_MoveDir.y = m_JumpSpeed;
+                    m_MoveDir.y = m_JumpSpeed * 2;
                     PlayJumpSound();
                     m_Jump = false;
                     m_Jumping = true;
